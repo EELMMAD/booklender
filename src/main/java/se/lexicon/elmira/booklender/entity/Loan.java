@@ -1,4 +1,4 @@
-package se.lexicon.elmira.booklender.model;
+package se.lexicon.elmira.booklender.entity;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
