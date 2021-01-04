@@ -13,11 +13,11 @@ public class Loan {
     private long loanId;
 
     @ManyToOne(fetch = FetchType.EAGER,
-            cascade = {CascadeType.MERGE})
+            cascade = {CascadeType.MERGE,CascadeType.ALL})
     private LibraryUser loanTaker;
 
     @ManyToOne(fetch = FetchType.EAGER,
-            cascade = {CascadeType.MERGE})
+            cascade = {CascadeType.MERGE,CascadeType.ALL})
     private Book book;
 
     private LocalDate loanDate;
