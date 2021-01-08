@@ -29,7 +29,6 @@ public class LibraryUser {
         return userId;
     }
 
-
     public LocalDate getRegDate() {
         return regDate;
     }
